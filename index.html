@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Your browser languages:</h1>
+    <pre id="output"></pre>
+    <script>
+      document.getElementById('output').textContent = JSON.stringify(window.navigator.languages, null, 2);
+    </script>
+  </body>
+</html>
+
